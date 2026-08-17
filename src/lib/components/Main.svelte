@@ -73,7 +73,7 @@
 							<p>Tuesday, Feb 12, 2013</p>
 							<p>{est}</p>
 							<p>9</p>
-							<p><a href="https://IQTest.com">133</a></p>
+							<p><a href="https://IQTest.com" target="_blank" rel="noopener noreferrer">133</a></p>
 							<p>Grey Bruce, Ontario</p>
 						</div>
 					</div>
