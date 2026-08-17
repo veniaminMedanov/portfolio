@@ -36,6 +36,7 @@
 		"vite": "^8.0.16"
 	},
 	"dependencies": {
-		"@vercel/analytics": "^2.0.1"
+		"@vercel/analytics": "^2.0.1",
+		"sveltekit": "link:@vercel/analytics/sveltekit"
 	}
 }

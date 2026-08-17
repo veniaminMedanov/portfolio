@@ -13,6 +13,5 @@
 		content={page.data.description ?? 'Veniamin is a 13 year old software engineer.'}
 	/>
 	<link rel="icon" href={favicon} />
-	<script src="https://kit.fontawesome.com/6292d5369d.js" crossorigin="anonymous"></script>
 </svelte:head>
 {@render children()}
