@@ -10,6 +10,8 @@
 	function handlePointerMove(e: PointerEvent) {
 		const rect = div!.getBoundingClientRect();
 
+		isHovering = true;
+
 		x = e.clientX - rect.left;
 		y = e.clientY - rect.top;
 	}
@@ -27,7 +29,6 @@
 <div
 	class="min-h-screen w-screen p-5"
 	onpointermove={handlePointerMove}
-	onpointerenter={() => (isHovering = true)}
 	onpointerleave={() => (isHovering = false)}
 	role="group"
 >
